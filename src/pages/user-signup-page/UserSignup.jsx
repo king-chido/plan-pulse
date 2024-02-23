@@ -1,3 +1,4 @@
+
 import "./usersignup.css";
 //import Button from "../../components/button/Button";
 import wallpaper from "../../assets/welcome2.jpg";
@@ -74,4 +75,3 @@ const UserSignup = () => {
   );
 };
 
-export default UserSignup;
