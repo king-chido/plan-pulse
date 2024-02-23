@@ -4,6 +4,7 @@ import Landingpage from "./pages/landing-page/Landingpage";
 import UserSignup from "./pages/user-signup-page/UserSignup";
 import UserLogin from "./pages/user-login-page/UserLogin";
 import Button from "./components/button/Button";
+import ForgotPassword from "./pages/forgot-password-page/ForgotPassword";
 
 //creating my router
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "btn",
     element: <Button />,
+  },
+  {
+    path: "/forgot-password",
+    element: <ForgotPassword/>,
   },
 ]);
 
